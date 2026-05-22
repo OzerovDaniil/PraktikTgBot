@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bot
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+telegram:
+  token: test-token
+  username: test_bot
+
+webhook:
+  path: https://test.ngrok.io/
+
+api:
+  apiKey: test-key
+  apiUrl: https://test-url

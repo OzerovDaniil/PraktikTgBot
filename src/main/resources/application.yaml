@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: PraktikTgBot
+
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+
+telegram:
+  token: ${TELEGRAM_TOKEN}
+  username: ${TELEGRAM_USERNAME}
+
+api:
+  apiKey: ${GEMINI_API_KEY}
+  apiUrl:
+
+webhook:
+  path: ${WEBHOOK_PATH}
