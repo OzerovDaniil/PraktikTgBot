@@ -26,7 +26,7 @@
 - Telegram Bot API
 - AI API
 - Gson
-- Maven
+- Gradle
 - JUnit 5
 - MockMvc
 - ngrok
