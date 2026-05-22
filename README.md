@@ -45,6 +45,7 @@ WEBHOOK_PATH=https://your-ngrok-url
 DB_URL=jdbc:postgresql://localhost:5432/bot
 DB_USERNAME=postgres
 DB_PASSWORD=root
+```
 
 ## Запуск ngrok
 
